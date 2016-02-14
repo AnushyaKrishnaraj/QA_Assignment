@@ -1,5 +1,5 @@
 package com.main;
-//Armstrong number
+// This program is to validate if a number is armstrong?
 import java.util.Scanner;
 
 public class ArmstrongNumber {
