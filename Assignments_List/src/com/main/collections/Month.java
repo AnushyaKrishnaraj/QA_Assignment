@@ -1,0 +1,6 @@
+package com.main.collections;
+
+public enum Month {JANUARY,FEBURARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,OCTOBER,NOVEMBER,
+	DECEMBER
+
+}
