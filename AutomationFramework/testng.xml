@@ -1,0 +1,9 @@
+
+<suite name="AutoFrameTestSuite">
+<test name="FunctTest">
+<classes>
+<class name="com.test.HomePageTest"/>
+<class name="com.test.LoginPageTest"/>
+</classes>
+</test>
+</suite>
