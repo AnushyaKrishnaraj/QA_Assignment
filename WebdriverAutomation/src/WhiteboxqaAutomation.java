@@ -101,7 +101,7 @@ public class WhiteboxqaAutomation {
 		String parentWindow=driver.getWindowHandle();
         System.out.println(parentWindow);
 		
-		/*driver.findElement(By.xpath(".//*[@id='presentations']//td/a[text()='AJAX']")).click();
+		driver.findElement(By.xpath(".//*[@id='presentations']//td/a[text()='AJAX']")).click();
 		Set<String> windows=driver.getWindowHandles();
 		for(String handle:windows)
 		{    System.out.println(handle);
@@ -112,9 +112,9 @@ public class WhiteboxqaAutomation {
 				driver.switchTo().window(parentWindow);
 				
 			}
-		}*/
-		//driver.findElement(By.xpath(".//button[@id='cheatsheets']")).click();
-		//driver.findElement(By.xpath(".//*[@id='cheatsheets']//a[text()='CSS Selectors']")).click();
+		}
+		driver.findElement(By.xpath(".//button[@id='cheatsheets']")).click();
+		driver.findElement(By.xpath(".//*[@id='cheatsheets']//a[text()='CSS Selectors']")).click();
         driver.switchTo().window(parentWindow);
         
 	}
