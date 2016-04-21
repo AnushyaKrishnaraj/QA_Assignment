@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.ebaySample.itemPrice.AppTest" duration-ms="33449" started-at="2016-04-21T06:53:40Z" finished-at="2016-04-21T06:54:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="33449" started-at="2016-04-21T06:53:40Z" finished-at="2016-04-21T06:54:13Z">
+      <class name="com.ebaySample.itemPrice.AppTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ebaySample.itemPrice.AppTest@2d6e8792]" name="initialize" is-config="true" duration-ms="16" started-at="2016-04-20T23:53:40Z" finished-at="2016-04-20T23:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="AppTest(java.lang.String, int)[pri:0, instance:com.ebaySample.itemPrice.AppTest@2d6e8792]" name="AppTest" duration-ms="12952" started-at="2016-04-20T23:53:40Z" data-provider="test1" finished-at="2016-04-20T23:53:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppTest -->
+        <test-method status="PASS" signature="AppTest(java.lang.String, int)[pri:0, instance:com.ebaySample.itemPrice.AppTest@2d6e8792]" name="AppTest" duration-ms="10277" started-at="2016-04-20T23:53:53Z" data-provider="test1" finished-at="2016-04-20T23:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppTest -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ebaySample.itemPrice.AppTest@2d6e8792]" name="initialize" is-config="true" duration-ms="0" started-at="2016-04-20T23:53:53Z" finished-at="2016-04-20T23:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ebaySample.itemPrice.AppTest@2d6e8792]" name="initialize" is-config="true" duration-ms="0" started-at="2016-04-20T23:54:03Z" finished-at="2016-04-20T23:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="AppTest(java.lang.String, int)[pri:0, instance:com.ebaySample.itemPrice.AppTest@2d6e8792]" name="AppTest" duration-ms="10173" started-at="2016-04-20T23:54:03Z" data-provider="test1" finished-at="2016-04-20T23:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iwatch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppTest -->
+      </class> <!-- com.ebaySample.itemPrice.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.ebaySample.itemPrice.AppTest -->
+</testng-results>
